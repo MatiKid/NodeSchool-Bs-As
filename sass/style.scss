@@ -1,0 +1,367 @@
+/*@import url(../fonts/quicksand);
+@import url(../fonts/verdana);
+*/
+@import url(http://fonts.googleapis.com/css?family=Quicksand:700);
+
+@import '_var';
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+
+nav {
+	background-color: $fondo-blanco;
+	font-family: $fuente-regular;
+	font-size: $subtitulo-chico;
+	padding: 20px 0;
+	a{
+		text-decoration: none;
+		color:$fuente-negra;
+	}
+	ul li,
+	ul,
+	.brand {
+		display: inline-block;
+		a:hover{
+			color:$fondo-celeste;
+		}
+	}
+
+	ul {
+		float: right;
+
+		li {
+			margin-left: 10px;
+
+			a {
+				padding: 10px 15px;
+				&:hover {
+					background-color: $fondo-celeste;
+					color: $fuente-blanca;
+				}
+			}
+		}
+	}
+
+}
+
+header {
+	background-color: $fondo-blanco;
+	background-image: url(../assets/fondo_header.png);
+	background-repeat: no-repeat;
+  	background-position: 60% 100%;
+  	height: 580px;
+
+	 .welcome {
+	 	text-align: center;
+	 	margin: auto;
+	 	padding: 50px 0 100px 0;
+
+	 	img {
+
+	 	}
+	 	h1 {
+	 		font-size: $titulo-principal;
+	 		font-family: $fuente-bold;
+	 		font-weight: $bold;
+	 		margin-top: 35px;
+	 		margin-bottom: 15px;
+	 	}
+	 	p {
+	 		font-family: verdana;
+  			font-size: 20px;
+  			color: #5b5b5b;
+ 		 	margin-bottom: 50px;
+ 		 	line-height: 30px;
+	 	}
+	 	span{
+	 		font-size: 25px;
+	 		&:hover{
+				color:$fondo-celeste;
+	 		}
+	 	}
+	 }
+}
+
+.informacion {
+	background-color: $fondo-amarillo;
+	background-image: url(../assets/fondo_aprender.png);
+	background-repeat: no-repeat;
+  	background-position: 60% 100%;
+  	height: 580px;
+
+  	div {
+		margin: auto;
+
+  		article {
+  		display: inline-block;
+  		text-align: center;
+  		width: 33%;
+  		height: 310px; 
+  		margin-top: 100px;
+  		h2 	{
+  			font-family: $fuente-bold;
+  			font-weight: $bold;
+  			font-size: $titulo;
+  			padding: 40px 0 15px 0;
+  		}
+  		p {
+  			font-family: $fuente-regular;
+  			font-size: $subtitulo;
+  			line-height: 30px;
+			
+  			a {
+  				color: $fuente-negra;
+  			}
+  		}
+  			
+  		}
+		
+  	}
+}
+
+.numeros {
+	background-color: $fondo-blanco;
+	margin: auto;
+	padding: 60px 0;
+
+	article{
+		display: inline-block;
+		width: 33%;
+		text-align: center;
+
+
+		h1 {
+			font-size: $titulo-principal;
+	 		font-family: $fuente-bold;
+	 		font-weight: $bold;
+		}
+
+		p {
+			font-family: $fuente-regular;
+			font-size: $subtitulo;
+		}
+	}
+}
+
+.eventos {
+	margin: auto;
+	background-image: url(../assets/fondo_eventos.png);
+	background-color: $fondo-celeste-claro;
+
+	.container div {
+		padding: 100px;
+
+		article {
+			display: inline-block;
+			width: 30%;
+			 margin-right: 10px;
+			background-color: $fondo-blanco;
+			/*background-image: url(../assets/fondo-blur-evento.png);*/
+			background-repeat: no-repeat;
+			border-radius: 10px;
+
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			.fondo-eventos {
+				width: 100%;
+			}
+			.fecha {
+			position: absolute;
+  			background-color: #ffe41e;
+  			padding: 5px 25px;
+  			margin: 10px 160px;
+			}
+			.cara {
+				position:absolute;
+				margin: -50px 30px;
+			}
+		}
+		h2 {
+			text-align: center;
+			color: $fuente-blanca;
+		}
+		h2, h3 {
+
+			font-family: $fuente-bold;
+  			font-weight: $bold;
+  			font-size: $titulo;
+  			padding: 50px 0px;
+  			margin: 0px 30px;
+
+		}
+		h3{
+			padding-top: 60px;
+			padding-bottom: 20px;
+		}
+		p, a{
+			font-family: $fuente-regular;
+			font-size: $subtitulo-chico;
+			margin: 0px 30px;
+			line-height: 20px;
+			margin-bottom: 15px;
+		}
+		a {
+			color:$fondo-celeste;
+			text-align: right;
+			display: block;
+			margin-bottom: 25px;
+
+		}
+	}
+}
+
+ .mapa {
+ 	background-color: $fondo-celeste;
+ 	padding: 90px 0px;
+
+ 	h2, p{
+ 		text-align: center;
+ 	}
+ 	h2{
+ 		color: $fuente-blanca;
+ 		font-size: $titulo;
+ 		font-family: $fuente-bold;
+ 		font-weight: $bold;
+ 		margin-bottom: 20px;
+ 	}
+ 	p{
+ 		color: $fuente-gris;
+ 		font-family: $fuente-regular;
+ 		margin-bottom: 45px;
+
+ 	}
+ 	img{
+ 		margin:auto;
+ 		display:block;
+ 	}
+
+ }
+
+.ellos-confian{
+	background-color: $fondo-blanco;
+	background-image: url(../assets/fondo-sponsors.png);
+	background-repeat: no-repeat;
+  	background-position: 60% 100%;
+  	height: 580px;
+
+	h2 {
+		font-size: $titulo;
+		font-family: $fuente-bold;
+		text-align: center;
+		padding: 90px 0 120px 0;
+
+	}
+}
+
+/*.on {
+	position: relative;
+	left: px;
+}
+.off {
+	position: relative;
+	left: 400px;
+	bottom: 152px;
+	z-index: -2px;
+}*/
+
+.banderitas {
+
+	.bandera {
+		height: 150px;
+		width: 100px;
+		display: inline-block;
+		position: relative;
+		top: 105px;
+  		left: 248px;
+  		p {
+			display: none;
+			position: relative;
+			bottom: 50px;
+			font-family: $fuente-regular;
+			font-size: $subtitulo-chico;
+			color: $fuente-gris-claro;
+		}
+	}
+	.bandera:hover {
+		p {
+			display: table;
+		}
+	}
+	
+	.bandera1 {
+		background: url(../assets/bandera_sl.png) no-repeat;
+	}
+	.bandera1:hover {
+		background: url(../assets/banderaHover_sl.png) no-repeat;
+	}
+	.bandera2 {
+		background: url(../assets/bandera_wi.png) no-repeat;
+		margin-left: 109px;
+	}
+	.bandera2:hover {
+		background: url(../assets/banderaHover_wi.png) no-repeat;
+	}
+	.bandera3 {
+		background: url(../assets/bandera_cd.png) no-repeat;
+		margin-left: 85px;
+	}
+	.bandera3:hover {
+		background: url(../assets/banderaHover_cd.png) no-repeat;
+	}
+	.bandera4 {
+		background: url(../assets/bandera_al.png) no-repeat;
+		  margin-left: 65px;
+	}
+	.bandera4:hover {
+		background: url(../assets/banderaHover_al.png) no-repeat;
+	}
+
+}
+footer {
+    padding: 95px 50px 50px 75px;
+    font-family: $fuente-regular;
+    
+    p {
+    float:left;
+    font-family: $fuente-regular;
+    font-size: $subtitulo-chico;
+        
+        span {
+        color: $fuente-gris-claro;
+        }
+    }
+
+    ul {
+    float:right;
+        
+        li {
+        display:inline-block;
+        padding: 0px 3px;
+        font-family: $fuente-regular;
+        color: $fuente-negra;
+        font-size: $subtitulo-chico;
+
+
+            a {
+            font-family: $fuente-regular;
+            color: $fuente-negra;
+            font-size: $subtitulo-chico;
+            &:hover{
+            	color:$fondo-celeste;
+            }
+            }
+        }
+    }
+
+}
+
+
+
+
+

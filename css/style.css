@@ -1,0 +1,255 @@
+/*@import url(../fonts/quicksand);
+@import url(../fonts/verdana);
+*/
+@import url(http://fonts.googleapis.com/css?family=Quicksand:700);
+.container {
+  width: 80%;
+  margin: auto; }
+
+nav {
+  background-color: #fefffe;
+  font-family: verdana;
+  font-size: 16px;
+  padding: 20px 0; }
+  nav a {
+    text-decoration: none;
+    color: #000; }
+  nav ul li,
+  nav ul,
+  nav .brand {
+    display: inline-block; }
+    nav ul li a:hover,
+    nav ul a:hover,
+    nav .brand a:hover {
+      color: #42b6fb; }
+  nav ul {
+    float: right; }
+    nav ul li {
+      margin-left: 10px; }
+      nav ul li a {
+        padding: 10px 15px; }
+        nav ul li a:hover {
+          background-color: #42b6fb;
+          color: #fefffe; }
+
+header {
+  background-color: #fefffe;
+  background-image: url(../assets/fondo_header.png);
+  background-repeat: no-repeat;
+  background-position: 60% 100%;
+  height: 580px; }
+  header .welcome {
+    text-align: center;
+    margin: auto;
+    padding: 50px 0 100px 0; }
+    header .welcome h1 {
+      font-size: 60px;
+      font-family: "Quicksand", sans-serif;
+      font-weight: 700;
+      margin-top: 35px;
+      margin-bottom: 15px; }
+    header .welcome p {
+      font-family: verdana;
+      font-size: 20px;
+      color: #5b5b5b;
+      margin-bottom: 50px;
+      line-height: 30px; }
+    header .welcome span {
+      font-size: 25px; }
+      header .welcome span:hover {
+        color: #42b6fb; }
+
+.informacion {
+  background-color: #ffe41e;
+  background-image: url(../assets/fondo_aprender.png);
+  background-repeat: no-repeat;
+  background-position: 60% 100%;
+  height: 580px; }
+  .informacion div {
+    margin: auto; }
+    .informacion div article {
+      display: inline-block;
+      text-align: center;
+      width: 33%;
+      height: 310px;
+      margin-top: 100px; }
+      .informacion div article h2 {
+        font-family: "Quicksand", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        padding: 40px 0 15px 0; }
+      .informacion div article p {
+        font-family: verdana;
+        font-size: 20px;
+        line-height: 30px; }
+        .informacion div article p a {
+          color: #000; }
+
+.numeros {
+  background-color: #fefffe;
+  margin: auto;
+  padding: 60px 0; }
+  .numeros article {
+    display: inline-block;
+    width: 33%;
+    text-align: center; }
+    .numeros article h1 {
+      font-size: 60px;
+      font-family: "Quicksand", sans-serif;
+      font-weight: 700; }
+    .numeros article p {
+      font-family: verdana;
+      font-size: 20px; }
+
+.eventos {
+  margin: auto;
+  background-image: url(../assets/fondo_eventos.png);
+  background-color: #7fc6e8; }
+  .eventos .container div {
+    padding: 100px; }
+    .eventos .container div article {
+      display: inline-block;
+      width: 30%;
+      margin-right: 10px;
+      background-color: #fefffe;
+      /*background-image: url(../assets/fondo-blur-evento.png);*/
+      background-repeat: no-repeat;
+      border-radius: 10px; }
+      .eventos .container div article:last-child {
+        margin-right: 0; }
+      .eventos .container div article .fondo-eventos {
+        width: 100%; }
+      .eventos .container div article .fecha {
+        position: absolute;
+        background-color: #ffe41e;
+        padding: 5px 25px;
+        margin: 10px 160px; }
+      .eventos .container div article .cara {
+        position: absolute;
+        margin: -50px 30px; }
+    .eventos .container div h2 {
+      text-align: center;
+      color: #fefffe; }
+    .eventos .container div h2, .eventos .container div h3 {
+      font-family: "Quicksand", sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      padding: 50px 0px;
+      margin: 0px 30px; }
+    .eventos .container div h3 {
+      padding-top: 60px;
+      padding-bottom: 20px; }
+    .eventos .container div p, .eventos .container div a {
+      font-family: verdana;
+      font-size: 16px;
+      margin: 0px 30px;
+      line-height: 20px;
+      margin-bottom: 15px; }
+    .eventos .container div a {
+      color: #42b6fb;
+      text-align: right;
+      display: block;
+      margin-bottom: 25px; }
+
+.mapa {
+  background-color: #42b6fb;
+  padding: 90px 0px; }
+  .mapa h2, .mapa p {
+    text-align: center; }
+  .mapa h2 {
+    color: #fefffe;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px; }
+  .mapa p {
+    color: #efefef;
+    font-family: verdana;
+    margin-bottom: 45px; }
+  .mapa img {
+    margin: auto;
+    display: block; }
+
+.ellos-confian {
+  background-color: #fefffe;
+  background-image: url(../assets/fondo-sponsors.png);
+  background-repeat: no-repeat;
+  background-position: 60% 100%;
+  height: 580px; }
+  .ellos-confian h2 {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    padding: 90px 0 120px 0; }
+
+/*.on {
+	position: relative;
+	left: px;
+}
+.off {
+	position: relative;
+	left: 400px;
+	bottom: 152px;
+	z-index: -2px;
+}*/
+.banderitas .bandera {
+  height: 150px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  top: 105px;
+  left: 248px; }
+  .banderitas .bandera p {
+    display: none;
+    position: relative;
+    bottom: 50px;
+    font-family: verdana;
+    font-size: 16px;
+    color: #5b5b5b; }
+.banderitas .bandera:hover p {
+  display: table; }
+.banderitas .bandera1 {
+  background: url(../assets/bandera_sl.png) no-repeat; }
+.banderitas .bandera1:hover {
+  background: url(../assets/banderaHover_sl.png) no-repeat; }
+.banderitas .bandera2 {
+  background: url(../assets/bandera_wi.png) no-repeat;
+  margin-left: 109px; }
+.banderitas .bandera2:hover {
+  background: url(../assets/banderaHover_wi.png) no-repeat; }
+.banderitas .bandera3 {
+  background: url(../assets/bandera_cd.png) no-repeat;
+  margin-left: 85px; }
+.banderitas .bandera3:hover {
+  background: url(../assets/banderaHover_cd.png) no-repeat; }
+.banderitas .bandera4 {
+  background: url(../assets/bandera_al.png) no-repeat;
+  margin-left: 65px; }
+.banderitas .bandera4:hover {
+  background: url(../assets/banderaHover_al.png) no-repeat; }
+
+footer {
+  padding: 95px 50px 50px 75px;
+  font-family: verdana; }
+  footer p {
+    float: left;
+    font-family: verdana;
+    font-size: 16px; }
+    footer p span {
+      color: #5b5b5b; }
+  footer ul {
+    float: right; }
+    footer ul li {
+      display: inline-block;
+      padding: 0px 3px;
+      font-family: verdana;
+      color: #000;
+      font-size: 16px; }
+      footer ul li a {
+        font-family: verdana;
+        color: #000;
+        font-size: 16px; }
+        footer ul li a:hover {
+          color: #42b6fb; }
+
+/*# sourceMappingURL=style.css.map */
